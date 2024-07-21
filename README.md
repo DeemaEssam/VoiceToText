@@ -14,25 +14,9 @@ CREATE TABLE transcripts (
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-```
 2. Create an HTML file (`voiceToText.html`) with JavaScript for speech recognition and AJAX.
 3. Create a PHP file (`voiceToText.php`) to handle database interactions.
-```ruby
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_POST['transcript'])) {
-        $transcript = $_POST['transcript'];
 
-        // Insert the transcript into the database
-        $sql = "INSERT INTO transcripts (text) VALUES ('$transcript')";
-        
-        if ($conn->query($sql) === TRUE) {
-            echo "New record created successfully";
-        } else {
-            echo "Error: " . $sql . "<br>" . $conn->error;
-        }
-    }
-}
-```
 
 ### Code Explanation
 
