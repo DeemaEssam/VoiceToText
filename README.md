@@ -29,3 +29,5 @@ CREATE TABLE transcripts (
 #### PHP (`save_transcript.php`)
 
 - **PHP:** Handles the server-side processing. Inserts the transcribed text into the `transcripts` table in the `robot` database.
+
+![voicetotext](https://github.com/user-attachments/assets/c7163892-3df9-4f88-b15c-6e666100bc13)
