@@ -7,7 +7,6 @@ The "Voice to Text" project is a web application that converts spoken words into
 
 1. create a MySQL database named `robot` that we used in the previous task with a table named `transcripts`.
 ```ruby
-```ruby
 CREATE TABLE transcripts (
     id INT AUTO_INCREMENT PRIMARY KEY,
     text VARCHAR(255) NOT NULL,
